@@ -1,0 +1,42 @@
+
+
+
+ /* First Container */
+.container1{
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+}
+
+#hello{
+    color: white;
+}
+
+#name{
+    color: white;
+}
+
+#webDev{
+    color: white;
+}
+
+
+/* Second Container */
+
+.container2{
+    width: 100vw;
+    height: 500px;
+    background-color: #313131;
+}
+
+#aboutMe{
+    color: white;
+}
+
+#accentBarAbout{
+
+}
+
+#aboutText{
+    color: white;
+}

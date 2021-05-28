@@ -17,31 +17,51 @@ function App() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-              </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
+              <Nav.Link href="#deets">Linkedin</Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
-                Dank memes
+                Github
       </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      <div className='container1'>
-        <div className='textContainer'>
-          <p id='hello'>Hello</p>
-          <h1 id='name'>I'm Juan Bolmey</h1>
-          <p id='webDev'>Web Developer</p>
+      <div className='bodyContainer'>
+        <div className='container1'>
+          <div className='textContainer'>
+            <p id='hello'>Hello</p>
+            <h1 id='name'>I'm Juan Bolmey</h1>
+            <p id='webDev'>Web Developer</p>
+          </div>
+        </div>
+        <div className='container2'>
+          <h2 id='aboutMe'>About Me</h2>
+          <div id='accentBarAbout'></div>
+          <p id='aboutText'>I attended Broward
+          College pursuing my Bachelors Degree
+          in Computer Science, while attending
+          I took a class that taught me how to
+          code Python... imedietly I fell in love
+          with programming. I decided to give
+          this class my all and ended up with
+          the highest grade in the class. Once
+          the semester was over I decided that
+          I was going to persue my passion of
+          coding and go to a bootcamp. I put my
+          work, school, and life asside and
+          attended Ironhack Full time. Once I
+          completed my 9 weeks course at Ironhack
+          I decided to start on projects and
+          voulenteer at Make it MVP to gain real
+          life experience and work on projects
+          with other devs. I am curently on
+          the hunt for a position as a web
+          developer.
+                 </p>
+          <div id='pictureContainer'>
+            {/* picture goes here */}
+          </div>
         </div>
       </div>
     </div>
