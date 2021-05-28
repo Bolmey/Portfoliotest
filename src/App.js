@@ -31,7 +31,7 @@ function App() {
         <div className='container1'>
           <div className='textContainer'>
             <p id='hello'>Hello</p>
-            <h1 id='name'>I'm Juan Bolmey</h1>
+            <h1 id='name'>I'm Juan Bolmey!</h1>
             <p id='webDev'>Web Developer</p>
           </div>
         </div>
@@ -58,9 +58,20 @@ function App() {
           with other devs. I am curently on
           the hunt for a position as a web
           developer.
-                 </p>
-          <div id='pictureContainer'>
-            {/* picture goes here */}
+          </p>
+          <div id='mainPictureContainer'>
+            <div id='pictureContainer'>
+              {/* picture goes here */}
+            </div>
+          </div>
+        </div>
+        <div className='container3'>
+          <h2 id='latestPro'>Latest Projects</h2>
+          <div id='accentBarPro'></div>
+          <div className='projectContainer'>
+            <div className="projects">
+
+            </div>
           </div>
         </div>
       </div>

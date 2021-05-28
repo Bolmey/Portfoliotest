@@ -25,18 +25,66 @@
 
 .container2{
     width: 100vw;
-    height: 500px;
+    height: 800px;
     background-color: #313131;
 }
 
 #aboutMe{
     color: white;
+    margin-left: 16px;
+    padding-top: 8px;
 }
 
 #accentBarAbout{
-
+    height: 5px;
+    width: 100px;
+    background-color: red;
+    margin-left: 16px;
 }
 
 #aboutText{
     color: white;
+    margin-left: 16px;
+    padding-top: 8px;
+    width: 90%;
+}
+
+#mainPictureContainer{
+    width: 100%;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+}
+
+#pictureContainer{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+/* Third Container */
+.container3{
+    width: 100vw;
+    height: 500px;
+    background-color: #484848;
+}
+
+#latestPro{
+    color: white;
+}
+
+#accentBarPro{
+    height: 5px;
+    width: 100px;
+    background-color: red;
+    margin-left: 16px;
+}
+
+.projectContainer{
+width: 100vw;
+
+}
+
+.projects{
+
 }
