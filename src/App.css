@@ -1,4 +1,6 @@
-
+body{ 
+    width: 100vw;
+}
 
 
  /* First Container */
@@ -10,14 +12,17 @@
 
 #hello{
     color: white;
+    margin-left: 16px;
 }
 
 #name{
     color: white;
+    margin-left: 16px;
 }
 
 #webDev{
     color: white;
+    margin-left: 16px;
 }
 
 
@@ -64,27 +69,51 @@
 
 /* Third Container */
 .container3{
-    width: 100vw;
-    height: 500px;
-    background-color: #484848;
+width: 100vw;
+height: 1600px;
+background-color: #484848;
 }
 
 #latestPro{
-    color: white;
+color: white;
+margin: 0 0 8px 16px;
 }
 
 #accentBarPro{
-    height: 5px;
-    width: 100px;
-    background-color: red;
-    margin-left: 16px;
+height: 5px;
+width: 100px;
+background-color: red;
+margin-left: 16px;
 }
 
 .projectContainer{
 width: 100vw;
+height: 1500px;
+}
 
+.gitHub{
+align-self: flex-end;
+margin: 8px 8px 0 0;
 }
 
 .projects{
+width: 100vw;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+border: 1px solid green;
+
+}
+
+.project1, .project2, .project3, .project4{
+width: 80%;
+height: 300px;
+background-color: red;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
 
 }

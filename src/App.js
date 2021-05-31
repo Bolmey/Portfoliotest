@@ -13,14 +13,14 @@ function App() {
     <div className="mainContainer">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home">Juan Bolmey</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">Linkedin</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link href="https://www.linkedin.com/in/bolmey/">Linkedin</Nav.Link>
+              <Nav.Link eventKey={2} href="https://github.com/Bolmey">
                 Github
       </Nav.Link>
             </Nav>
@@ -61,7 +61,6 @@ function App() {
           </p>
           <div id='mainPictureContainer'>
             <div id='pictureContainer'>
-              {/* picture goes here */}
             </div>
           </div>
         </div>
@@ -70,7 +69,26 @@ function App() {
           <div id='accentBarPro'></div>
           <div className='projectContainer'>
             <div className="projects">
-
+              <div className='project1'>
+                <div className='gitHub'>GitHub</div>
+                <h2>Developer Lane</h2>
+                <h4>Technologies:</h4>
+              </div>
+              <div className='project2'>
+                <div className='gitHub'>GitHub</div>
+                <h2>Webopoly</h2>
+                <h4>Technologies:</h4>
+              </div>
+              <div className='project3'>
+                <div className='gitHub'>GitHub</div>
+                <h2>DayFly</h2>
+                <h4>Technologies:</h4>
+              </div>
+              <div className='project4'>
+                <div className='gitHub'>GitHub</div>
+                <h2>Test</h2>
+                <h4>Technologies:</h4>
+              </div>
             </div>
           </div>
         </div>
