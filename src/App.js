@@ -34,6 +34,8 @@ function App() {
             <h1 id='name'>I'm Juan Bolmey!</h1>
             <p id='webDev'>Web Developer</p>
           </div>
+          <div className="mainPictureContainer">
+          </div>
         </div>
         <div className='container2'>
           <h2 id='aboutMe'>About Me</h2>
