@@ -30,7 +30,7 @@ function App() {
       <div className='bodyContainer'>
         <div className='container1'>
           <div className='textContainer'>
-            <p id='hello'>Hello</p>
+            <p id='hello'>Greetings</p>
             <h1 id='name'>I'm Juan Bolmey!</h1>
             <p id='webDev'>Web Developer</p>
           </div>
@@ -38,7 +38,7 @@ function App() {
           </div>
         </div>
         <div className='container2'>
-          <h2 id='aboutMe'>About Me</h2>
+          <h2 id='aboutMe'>About Me!!</h2>
           <div id='accentBarAbout'></div>
           <p id='aboutText'>I attended Broward
           College pursuing my Bachelors Degree
@@ -84,6 +84,11 @@ function App() {
               <div className='project3'>
                 <div className='gitHub'>GitHub</div>
                 <h2>DayFly</h2>
+                <h4>Technologies:</h4>
+              </div>
+              <div className='project4'>
+                <div className='gitHub'>GitHub</div>
+                <h2>Test</h2>
                 <h4>Technologies:</h4>
               </div>
               <div className='project4'>
